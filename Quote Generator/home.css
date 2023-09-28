@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.desktop-2 {
+  background: #101010;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-10 {
+  background: #7855ed;
+  border-radius: 100px;
+  width: 793.5px;
+  height: 730px;
+  position: absolute;
+  left: 853px;
+  top: 50px;
+}
+.ellipse-3 {
+  background: #0f0f0f;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: calc(50% - 300.25px);
+  top: calc(50% - 300px);
+}
+.ellipse-4 {
+  background: rgba(120, 85, 237, 0.8);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: calc(50% - 150.25px);
+  top: calc(50% - 150px);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1020px;
+  top: 79px;
+}
+.btn {
+  color: rgba(244, 244, 244, 0.8);
+  text-align: left;
+  font: 600 25px "Montserrat", sans-serif;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+}
+.btn:hover{
+  text-decoration: underline;
+}
+.quote-generator {
+  text-align: left;
+  font: 400 64px "Great Vibes", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+.quote-generator-span {
+  color: #f4f4f4;
+  font: 400 64px "Great Vibes", sans-serif;
+}
+.quote-generator-span2 {
+  color: #7855ed;
+  font: 400 64px "Great Vibes", sans-serif;
+}
+
+.ellipse-32 {
+  background: #7855ed;
+  border-radius: 50%;
+  width: 447.09px;
+  height: 463.06px;
+  position: absolute;
+  left: 224.71px;
+  top: 217.05px;
+  filter: blur(200px);
+}
+.ellipse-42 {
+  background: rgba(15, 15, 15, 0.9);
+  border-radius: 50%;
+  width: 402.39px;
+  height: 43.83px;
+  position: absolute;
+  left: 269.42px;
+  top: 761.98px;
+  filter: blur(25px);
+}
+.img {
+  width: 40%;
+  height: 710px;
+  position: absolute;
+  left: 176.01px;
+  top: 117px;
+  /* box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.3); */
+}
+.welcome-to-quote-generator {
+  color: #f4f4f4;
+  text-align: left;
+  opacity: 0.8999999761581421;
+  position: absolute;
+  left: 1007px;
+  top: 187px;
+  width: 521px;
+  height: 195px;
+
+}
+.welcome-to-quote-generator-span {
+  color: #f4f4f4;
+  font: 600 64px/100px "Great Vibes", sans-serif;
+}
+.welcome-to-quote-generator-span2 {
+  color: #f4f4f4;
+  font: 600 80px/100px "Montserrat", sans-serif;
+}
+.welcome-to-quote-generator-span3 {
+  color: #f4f4f4;
+  font: 400 90px/100px "Great Vibes", sans-serif;
+}
+.discription{
+  color: rgba(244, 244, 244, 0.9);
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 1007px;
+  top: 430px;
+  width: 650px;
+  height: 137px;
+}
+.rectangle-3 {
+  background: #f4f4f4;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  left: 1048px;
+  top: 654px;
+}
+
+.log-in {
+  color: rgba(15, 15, 15, 0.8);
+  text-align: left;
+  font: 500 30px "Montserrat", sans-serif;
+  position: absolute;
+  left: 1100px;
+  top: 665px;
+  width: 105px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.rectangle-32 {
+  background: #0f0f0f;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  left: 1333.66px;
+  top: 654px;
+}
+.rectangle-4 {
+  background: #0f0f0f;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  left: 1333.66px;
+  top: 654px;
+}
+.sign-up2 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font: 500 30px "Montserrat", sans-serif;
+  position: absolute;
+  left: 1370px;
+  top: 670px;
+  width: 127.12px;
+  height: 37.11px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.sign-up2:hover {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}

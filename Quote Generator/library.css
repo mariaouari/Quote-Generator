@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+.page {
+  background: linear-gradient(
+    103.14deg,
+    rgba(17, 17, 18, 1) 0%,
+    rgba(120, 85, 237, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1150px;
+  top: 40px;
+}
+.btn {
+  color: rgba(244, 244, 244, 0.9);
+  text-align: left;
+  font: 600 20px "Montserrat", sans-serif;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.btn:hover{
+  text-decoration: underline;
+}
+.quote-generator {
+  text-align: left;
+  font: 400 50px "Great Vibes", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+}
+.quote-generator-span {
+  color: #f4f4f4;
+  font: 400 50px "Great Vibes", sans-serif;
+}
+.quote-generator-span2 {
+  color: #7855ed;
+  font: 400 50px "Great Vibes", sans-serif;
+}
+
+.nav {
+  background: #f4f4f4;
+  border-radius: 50px 50px 0 0 ;
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* .scrl{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #7855ed (50%);
+  border-radius: 5px;
+  font-size: 2.5rem;
+  margin-left: 880px;
+  margin-top: 450px;
+  position: fixed;
+  /* display: none; */
+
+
+.my-quotes {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Great Vibes", sans-serif;
+  position: absolute;
+  left: calc(50% - 84.25px);
+  top: 20px;
+ 
+}
+
+
+.contant-div {
+  /* background: #7855ed; */
+  border-radius: 30px;
+  width:90%;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  display: flex;
+  justify-content: center center;
+ 
+}
+.quote {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font: 500 20px "Montserrat", sans-serif;
+  position: absolute;
+  align-items: center;
+  left: 10px;
+  top: 30px;
+
+}
+
+.Trash {
+  background: #f4f4f4;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  padding: 7px;
+  border: none;
+  top: 20px;
+  left: 750px;
+}
+.material-symbols-outlined{
+    font-size: 3rem  !important;
+    color: red;
+}
+
+.btn1 {
+  background: rgba(244, 244, 244, 0.8);
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 45px;
+  top: 130px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font: 600 20px "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover{
+  background-color: #7855ed;
+  color: white;
+ 
+}
+
+
+.btn2 {
+  background: rgba(244, 244, 244, 0.8);
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 280px;
+  top: 130px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font: 600 20px "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.btn2:hover{
+  background-color: #7855ed;
+  color: white;
+ 
+}
+
+.btn3 {
+  background: rgba(244, 244, 244, 0.8);
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 530px;
+  top: 130px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font: 600 20px "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.btn3:hover{
+  background-color: #7855ed;
+  color: white;
+ 
+}
+
+
+
+
+
